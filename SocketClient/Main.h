@@ -38,7 +38,7 @@ void main() {
 	int connResult = connect(sock, (sockaddr*)&hint, sizeof(hint));
 	if (connResult == SOCKET_ERROR)
 	{
-		cerr << "không thể kết nối đến sv, lỗi #" << WSAGetLastError() << endl;
+		cerr << "Cua hang dong cua vui long quay lai sau"  << endl;
 		closesocket(sock);
 		WSACleanup();
 		return;

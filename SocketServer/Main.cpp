@@ -66,7 +66,7 @@ void main() {
 
 	//vòng lặp chấp nhận và gửi tin nhắn cho client
 	char buf[4096];
-	
+	HandleUserInput* handle = new HandleUserInput( clientSocket);
 	while (true) 
 	{
 		ZeroMemory(buf, 4096);
@@ -91,10 +91,10 @@ void main() {
 		//gửi lại tb cho client
 		//send(clientSocket, buf, bytesReceived + 1, 0);
 		
-		HandleUserInput* handle = new HandleUserInput(string(buf, 0, bytesReceived), clientSocket);
+		
 		
 		//handle->sendMess("vui long nhap thu cung muon mua: ");
-		handle->handleInput();
+		handle->handleInput(string(buf, 0, bytesReceived));
 
 
 

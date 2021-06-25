@@ -1,8 +1,8 @@
 #include "Pet.h"
 
-void Pet::playPetSound()
+std::string Pet::getPetSound()
 {
-	cout << "Toi la " + petName;
+	return  "Toi la " + petName;
 }
 
 Pet::Pet(std::string pPetName): petName(pPetName)

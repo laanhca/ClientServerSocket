@@ -2,7 +2,7 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>E:\Learning\Cplspls\SocketClient\Debug\SocketClient.exe</FullPath>
+      <FullPath>E:\Learning\Cplspls\ClientServer\SocketClient\Debug\SocketClient.exe</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

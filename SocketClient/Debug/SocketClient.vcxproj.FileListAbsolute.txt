@@ -1,1 +1,2 @@
 E:\Learning\Cplspls\SocketClient\Debug\SocketClient.exe
+E:\Learning\Cplspls\ClientServer\SocketClient\Debug\SocketClient.exe

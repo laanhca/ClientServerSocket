@@ -5,7 +5,7 @@ using namespace std;
 class Pet
 {
 public:
-	void playPetSound();
+	std::string getPetSound();
 	Pet(std::string pPetName);
 	std::string getPetName() {
 		return petName;

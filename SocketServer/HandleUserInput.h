@@ -8,18 +8,19 @@ using namespace std;
 class HandleUserInput
 {
 public:
-	HandleUserInput(std::string pUserInput, SOCKET pClientSocket);
+	HandleUserInput( SOCKET pClientSocket);
 	void sendMess(std::string mess);
-	void handleInput();
+	void handleInput(std::string userInput);
 	bool isInListPet(std::string petName);
-	void buyPet();
-	void swapPet();
+	void buyPet(std::string userInput);
+	void swapPet(std::string userInput);
 	void playSound();
 	void createPet();
+	bool isDoSwap(std::string userInput);
 
 private:
 	~HandleUserInput();
-	std::string userInput;
+	//std::string userInput;
 	SOCKET clientSocket;
 	int numberPetOfUser=0;
 	std::vector<string> listNamePet;
