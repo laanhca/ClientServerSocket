@@ -1,0 +1,15 @@
+﻿  Main.cpp
+E:\Learning\Cplspls\SocketClient\Main.h(8,13): warning C4326: return type of 'main' should be 'int' instead of 'void'
+E:\Learning\Cplspls\SocketClient\Main.h(18,11): warning C4566: character represented by universal-character-name '\u1EC3' cannot be represented in the current code page (1252)
+E:\Learning\Cplspls\SocketClient\Main.h(18,11): warning C4566: character represented by universal-character-name '\u1EA1' cannot be represented in the current code page (1252)
+E:\Learning\Cplspls\SocketClient\Main.h(18,11): warning C4566: character represented by universal-character-name '\u1ED7' cannot be represented in the current code page (1252)
+E:\Learning\Cplspls\SocketClient\Main.h(26,11): warning C4566: character represented by universal-character-name '\u1EC3' cannot be represented in the current code page (1252)
+E:\Learning\Cplspls\SocketClient\Main.h(26,11): warning C4566: character represented by universal-character-name '\u1EA1' cannot be represented in the current code page (1252)
+E:\Learning\Cplspls\SocketClient\Main.h(26,11): warning C4566: character represented by universal-character-name '\u1ED7' cannot be represented in the current code page (1252)
+E:\Learning\Cplspls\SocketClient\Main.h(41,11): warning C4566: character represented by universal-character-name '\u1EC3' cannot be represented in the current code page (1252)
+E:\Learning\Cplspls\SocketClient\Main.h(41,11): warning C4566: character represented by universal-character-name '\u1EBF' cannot be represented in the current code page (1252)
+E:\Learning\Cplspls\SocketClient\Main.h(41,11): warning C4566: character represented by universal-character-name '\u1ED1' cannot be represented in the current code page (1252)
+E:\Learning\Cplspls\SocketClient\Main.h(41,11): warning C4566: character represented by universal-character-name '\u0111' cannot be represented in the current code page (1252)
+E:\Learning\Cplspls\SocketClient\Main.h(41,11): warning C4566: character represented by universal-character-name '\u1ED7' cannot be represented in the current code page (1252)
+E:\Learning\Cplspls\SocketClient\Main.h(86,2): warning C4551: function call missing argument list
+  SocketClient.vcxproj -> E:\Learning\Cplspls\SocketClient\Debug\SocketClient.exe

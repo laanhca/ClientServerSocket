@@ -1,0 +1,5 @@
+﻿  HandleUserInput.cpp
+E:\Learning\Cplspls\SocketServer\HandleUserInput.cpp(34,20): warning C4018: '<': signed/unsigned mismatch
+E:\Learning\Cplspls\SocketServer\HandleUserInput.cpp(50,21): warning C4018: '<': signed/unsigned mismatch
+E:\Learning\Cplspls\SocketServer\HandleUserInput.cpp(74,20): warning C4018: '<': signed/unsigned mismatch
+  SocketServer.vcxproj -> E:\Learning\Cplspls\SocketServer\Debug\SocketServer.exe
