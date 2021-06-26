@@ -5,7 +5,7 @@
 class PetChuot : public PetColong
 {
 public:
-	PetChuot(std::string pPetName);
+	PetChuot();
 	std::string getPetSound() override;
 private:
 	~PetChuot();

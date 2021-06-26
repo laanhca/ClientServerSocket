@@ -1,7 +1,10 @@
 #include "PetGa.h"
 
-PetGa::PetGa(std::string pPetName) : PetCoCanh(pPetName)
+
+
+PetGa::PetGa()
 {
+    petName = "ga";
 }
 
 std::string PetGa::getPetSound()

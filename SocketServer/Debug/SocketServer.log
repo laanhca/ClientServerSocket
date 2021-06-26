@@ -1,9 +1,9 @@
 ﻿  HandleUserInput.cpp
+E:\Learning\Cplspls\ClientServer\SocketServer\PetManager.h(28): warning C4091: 'static ': ignored on left of 'PetManager::ePet' when no variable is declared
 E:\Learning\Cplspls\ClientServer\SocketServer\HandleUserInput.cpp(44,20): warning C4018: '<': signed/unsigned mismatch
 E:\Learning\Cplspls\ClientServer\SocketServer\HandleUserInput.cpp(57,21): warning C4018: '<': signed/unsigned mismatch
 E:\Learning\Cplspls\ClientServer\SocketServer\HandleUserInput.cpp(82,20): warning C4018: '<': signed/unsigned mismatch
 E:\Learning\Cplspls\ClientServer\SocketServer\HandleUserInput.cpp(98,21): warning C4018: '<': signed/unsigned mismatch
-E:\Learning\Cplspls\ClientServer\SocketServer\HandleUserInput.cpp(128,20): warning C4018: '<': signed/unsigned mismatch
   Main.cpp
 E:\Learning\Cplspls\ClientServer\SocketServer\Main.cpp(10,13): warning C4326: return type of 'main' should be 'int' instead of 'void'
   Pet.cpp
@@ -24,6 +24,7 @@ E:\Learning\Cplspls\ClientServer\SocketServer\Main.cpp(10,13): warning C4326: re
   PetGa.cpp
   PetHeo.cpp
   PetManager.cpp
+E:\Learning\Cplspls\ClientServer\SocketServer\PetManager.h(28): warning C4091: 'static ': ignored on left of 'PetManager::ePet' when no variable is declared
   Generating Code...
   Compiling...
   PetMeo.cpp

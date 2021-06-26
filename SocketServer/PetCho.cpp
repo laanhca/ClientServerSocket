@@ -1,7 +1,10 @@
 #include "PetCho.h"
 
-PetCho::PetCho(std::string pPetName) : PetColong(pPetName)
+
+
+PetCho::PetCho()
 {
+    petName = "cho";
 }
 
 std::string PetCho::getPetSound()

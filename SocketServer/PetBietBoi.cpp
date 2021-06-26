@@ -2,7 +2,7 @@
 
 
 
-PetBietBoi::PetBietBoi(std::string pPetName): Pet(pPetName)
+PetBietBoi::PetBietBoi()
 {
 }
 

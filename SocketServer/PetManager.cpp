@@ -16,55 +16,47 @@
 #include "PetChimDaiBang.h"
 #include "PetChimCong.h"
 
-Pet* PetManager::createPet(std::string newPet)
+Pet* PetManager::createPet(int ePet)
 {
-    if (newPet.compare("cho")) {
-        return new PetCho(newPet);
+    switch (ePet)
+    {
+    case ePet::CHO:
+        return new PetCho();
+    case ePet::MEO:
+        return new PetMeo();
+    case ePet::HEO:
+        return new PetHeo();
+    case ePet::CHUOT:
+        return new PetChuot();
+    case ePet::CHON:
+        return new PetChon();
+    case ePet::CAVANG:
+        return new PetCaVang();
+    case ePet::CAKOI:
+        return new PetCaKoi();
+    case ePet::CAHEO:
+        return new PetCaHeo();
+    case ePet::CASAU:
+        return new PetCaSau();
+    case ePet::CAVOI:
+        return new PetCaVoi();
+    case ePet::GA:
+        return new PetGa();
+    case ePet::VIT:
+        return new PetVit();
+    case ePet::CHIMBOCAU:
+        return new PetChimBoCau();
+    case ePet::VET:
+        return new PetVet();
+    case ePet::CHIMCONG:
+        return new PetChimCong();
+    case ePet::CHIMDAIBANG:
+        return new PetChimDaiBang();
+    default:
+        return nullptr;
     }
-    if (newPet.compare("meo")) {
-        return new PetMeo(newPet);
-    }
-    if (newPet.compare("heo")) {
-        return new PetHeo(newPet);
-    }
-    if (newPet.compare("chuot")) {
-        return new PetChuot(newPet);
-    }
-    if (newPet.compare("chon")) {
-        return new PetChon(newPet);
-    }
-    if (newPet.compare("ca vang")) {
-        return new PetCaVang(newPet);
-    }
-    if (newPet.compare("ca koi")) {
-        return new PetCaKoi(newPet);
-    }
-    if (newPet.compare("ca heo")) {
-        return new PetCaHeo(newPet);
-    }
-    if (newPet.compare("ca sau")) {
-        return new PetCaSau(newPet);
-    }
-    if (newPet.compare("ca voi")) {
-        return new PetCaVoi(newPet);
-    }
-    if (newPet.compare("ga")) {
-        return new PetGa(newPet);
-    }
-    if (newPet.compare("vit")) {
-        return new PetVit(newPet);
-    }
-    if (newPet.compare("bo cau")) {
-        return new PetChimBoCau(newPet);
-    }
-    if (newPet.compare("vet")) {
-        return new PetVet(newPet);
-    }
-    if (newPet.compare("chim cong")) {
-        return new PetChimCong(newPet);
-    }
-    if (newPet.compare("dai bang")) {
-        return new PetChimDaiBang(newPet);
-    }
-    return nullptr;
+
+
+
+
 }

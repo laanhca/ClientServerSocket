@@ -3,7 +3,7 @@
 class PetCoCanh: public Pet
 {
 public:
-	PetCoCanh(std::string pPetName);
+	PetCoCanh();
 	virtual void petBay();
 protected:
 	~PetCoCanh();

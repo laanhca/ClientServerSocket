@@ -2,8 +2,10 @@
 
 
 
-PetVit::PetVit(std::string pPetName): PetCoCanh(pPetName)
+
+PetVit::PetVit()
 {
+    petName = "vit";
 }
 
 std::string PetVit::getPetSound()

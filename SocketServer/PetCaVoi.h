@@ -3,7 +3,7 @@
 class PetCaVoi : public PetBietBoi
 {
 public:
-	PetCaVoi(std::string pPetName);
+	PetCaVoi();
 	std::string getPetSound() override;
 private:
 	~PetCaVoi();

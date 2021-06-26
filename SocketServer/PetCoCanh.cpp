@@ -1,6 +1,6 @@
 #include "PetCoCanh.h"
 
-PetCoCanh::PetCoCanh(std::string pPetName): Pet(pPetName)
+PetCoCanh::PetCoCanh()
 {
 }
 

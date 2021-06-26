@@ -1,8 +1,9 @@
 #include "PetVet.h"
 
-PetVet::PetVet(std::string pPetName) : PetCoCanh(pPetName)
-{
 
+PetVet::PetVet()
+{
+    petName = "vet";
 }
 
 std::string PetVet::getPetSound()

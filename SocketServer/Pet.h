@@ -6,7 +6,7 @@ class Pet
 {
 public:
 	virtual std::string getPetSound()=0;
-	Pet(std::string pPetName);
+	Pet();
 	std::string getPetName() {
 		return petName;
 	}

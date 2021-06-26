@@ -2,8 +2,11 @@
 
 
 
-PetCaKoi::PetCaKoi(std::string pPetName): PetBietBoi(pPetName)
+
+
+PetCaKoi::PetCaKoi()
 {
+    petName = "ca koi";
 }
 
 std::string PetCaKoi::getPetSound()

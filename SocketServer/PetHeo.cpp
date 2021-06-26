@@ -1,7 +1,10 @@
 #include "PetHeo.h"
 
-PetHeo::PetHeo(std::string pPetName) : PetColong(pPetName)
+
+
+PetHeo::PetHeo()
 {
+    petName = "heo";
 }
 
 std::string PetHeo::getPetSound()

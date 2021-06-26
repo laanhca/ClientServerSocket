@@ -1,7 +1,7 @@
 #include "HandleUserInput.h"
 #include "PetManager.h"
 HandleUserInput::HandleUserInput( SOCKET pClientSocket):clientSocket(pClientSocket) {
-	listNamePet = { "cho","meo","heo", "chuot", "chon","ca vang", "ca koi", "ca heo", "ca sau", "ca voi", "ga","vit","bo cau","vet","chim cong","dai bang" };
+	
 	petOfUser = nullptr;
 	createPet();
 	
@@ -41,8 +41,8 @@ void HandleUserInput::handleInput(std::string userInput) {
 	
 }
 bool HandleUserInput::isInListPet(std::string petName) {
-	for (int i = 0; i < listNamePet.size(); i++) {
-		if (petName.compare(listNamePet.at(i)) == 0) {
+	for (int i = 0; i < listPet.size(); i++) {
+		if (petName.compare(listPet.at(i)->getPetName()) == 0) {
 			return true;
 		}
 	}
@@ -97,7 +97,7 @@ void HandleUserInput::swapPet(std::string userInput)
 	{
 		for (int i = 0; i < listPet.size(); i++) {
 			if (listPet.at(i)->getPetName().compare(s) == 0) {
-				sendMess("ban da doi thanh " + s);
+				sendMess("ban da doi thanh " + listPet.at(i)->getPetName());
 				petOfUser = listPet.at(i);
 				return;
 			}
@@ -107,11 +107,6 @@ void HandleUserInput::swapPet(std::string userInput)
 		
 			
 }
-
-	
-
-
-
 
 
 void HandleUserInput::playSound()
@@ -125,8 +120,8 @@ void HandleUserInput::playSound()
 
 void HandleUserInput::createPet()
 {
-	for (int i = 0; i < listNamePet.size(); i++) {
-		auto pet = PetManager::createPet(listNamePet.at(i));
+	for (int i = 0; i < PetManager::ePet::MAXPET; i++) {
+		auto pet = PetManager::createPet(i);
 		listPet.push_back(pet);
 
 	}

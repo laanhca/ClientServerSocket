@@ -3,7 +3,7 @@
 class PetColong: public Pet
 {
 public:
-	PetColong(std::string pPetName);
+	PetColong();
 	virtual void ruLong();
 protected:
 	~PetColong();

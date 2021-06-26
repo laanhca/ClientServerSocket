@@ -1,7 +1,10 @@
 #include "PetChimBoCau.h"
 
-PetChimBoCau::PetChimBoCau(std::string pPetName) : PetCoCanh(pPetName)
+
+
+PetChimBoCau::PetChimBoCau()
 {
+    petName = "chim bo cau";
 }
 
 std::string PetChimBoCau::getPetSound()

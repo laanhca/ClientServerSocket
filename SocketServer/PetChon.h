@@ -3,7 +3,7 @@
 class PetChon : public PetColong
 {
 public:
-	PetChon(std::string pPetName);
+	PetChon();
 	std::string getPetSound() override;
 private:
 	~PetChon();

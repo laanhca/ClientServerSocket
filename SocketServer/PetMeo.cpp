@@ -2,8 +2,11 @@
 
 
 
-PetMeo::PetMeo(std::string pPetName) : PetColong(pPetName)
+
+
+PetMeo::PetMeo()
 {
+    petName = "meo";
 }
 
 std::string PetMeo::getPetSound()

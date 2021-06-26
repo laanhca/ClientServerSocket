@@ -3,7 +3,7 @@
 class PetBietBoi: public Pet
 {
 public:
-	PetBietBoi(std::string pPetName);
+	PetBietBoi();
 	virtual void petBoi();
 protected:
 	~PetBietBoi();

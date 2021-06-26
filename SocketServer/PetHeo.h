@@ -3,7 +3,7 @@
 class PetHeo : public PetColong
 {
 public:
-	PetHeo(std::string pPetName);
+	PetHeo();
 	std::string getPetSound() override;
 private:
 	~PetHeo();

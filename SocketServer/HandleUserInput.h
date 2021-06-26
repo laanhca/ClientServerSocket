@@ -23,8 +23,10 @@ private:
 	//std::string userInput;
 	SOCKET clientSocket;
 	int numberPetOfUser=0;
-	std::vector<string> listNamePet;
 	std::vector<Pet*> listPet;
 	Pet* petOfUser;
+	enum ePet {
+
+	};
 };
 
