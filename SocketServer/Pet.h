@@ -5,12 +5,12 @@ using namespace std;
 class Pet
 {
 public:
-	std::string getPetSound();
+	virtual std::string getPetSound()=0;
 	Pet(std::string pPetName);
 	std::string getPetName() {
 		return petName;
 	}
-private:
+protected:
 	std::string petName;
 	~Pet();
 };

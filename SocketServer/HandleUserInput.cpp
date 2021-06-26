@@ -1,7 +1,7 @@
 #include "HandleUserInput.h"
-
+#include "PetManager.h"
 HandleUserInput::HandleUserInput( SOCKET pClientSocket):clientSocket(pClientSocket) {
-	listNamePet = { "cho","meo","heo", "chuot hamster", "chon","ca vang", "ca koi", "ca heo", "ca sau", "ca voi", "ga","vit","chim bo cau","vet","chim cong","chim dai bang" };
+	listNamePet = { "cho","meo","heo", "chuot", "chon","ca vang", "ca koi", "ca heo", "ca sau", "ca voi", "ga","vit","bo cau","vet","chim cong","dai bang" };
 	petOfUser = nullptr;
 	createPet();
 	
@@ -56,7 +56,7 @@ void HandleUserInput::buyPet(std::string userInput)
 		
 		for (int i = 0; i < listPet.size(); i++) {
 			if (listPet.at(i)->getPetName().compare(userInput) == 0) {
-				sendMess("da ban cho ban 01 " + userInput);
+				sendMess("da ban cho ban 01 " + listPet.at(i)->getPetName());
 				petOfUser = listPet.at(i);
 				return;
 			}
@@ -126,7 +126,7 @@ void HandleUserInput::playSound()
 void HandleUserInput::createPet()
 {
 	for (int i = 0; i < listNamePet.size(); i++) {
-		auto pet = new Pet(listNamePet.at(i));
+		auto pet = PetManager::createPet(listNamePet.at(i));
 		listPet.push_back(pet);
 
 	}

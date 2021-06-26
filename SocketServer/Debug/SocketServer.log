@@ -4,4 +4,38 @@ E:\Learning\Cplspls\ClientServer\SocketServer\HandleUserInput.cpp(57,21): warnin
 E:\Learning\Cplspls\ClientServer\SocketServer\HandleUserInput.cpp(82,20): warning C4018: '<': signed/unsigned mismatch
 E:\Learning\Cplspls\ClientServer\SocketServer\HandleUserInput.cpp(98,21): warning C4018: '<': signed/unsigned mismatch
 E:\Learning\Cplspls\ClientServer\SocketServer\HandleUserInput.cpp(128,20): warning C4018: '<': signed/unsigned mismatch
+  Main.cpp
+E:\Learning\Cplspls\ClientServer\SocketServer\Main.cpp(10,13): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  Pet.cpp
+  PetBietBoi.cpp
+  PetCaHeo.cpp
+  PetCaKoi.cpp
+  PetCaSau.cpp
+  PetCaVang.cpp
+  PetCaVoi.cpp
+  PetChimBoCau.cpp
+  PetChimCong.cpp
+  PetChimDaiBang.cpp
+  PetCho.cpp
+  PetChon.cpp
+  PetChuot.cpp
+  PetCoCanh.cpp
+  PetColong.cpp
+  PetGa.cpp
+  PetHeo.cpp
+  PetManager.cpp
+  Generating Code...
+  Compiling...
+  PetMeo.cpp
+  PetVet.cpp
+  PetVit.cpp
+  TcpServer.cpp
+E:\Learning\Cplspls\ClientServer\SocketServer\TcpServer.cpp(16,11): warning C4566: character represented by universal-character-name '\u1EC3' cannot be represented in the current code page (1252)
+E:\Learning\Cplspls\ClientServer\SocketServer\TcpServer.cpp(16,11): warning C4566: character represented by universal-character-name '\u1EDF' cannot be represented in the current code page (1252)
+E:\Learning\Cplspls\ClientServer\SocketServer\TcpServer.cpp(16,11): warning C4566: character represented by universal-character-name '\u1EA1' cannot be represented in the current code page (1252)
+E:\Learning\Cplspls\ClientServer\SocketServer\TcpServer.cpp(16,11): warning C4566: character represented by universal-character-name '\u0111' cannot be represented in the current code page (1252)
+E:\Learning\Cplspls\ClientServer\SocketServer\TcpServer.cpp(24,11): warning C4566: character represented by universal-character-name '\u1EC3' cannot be represented in the current code page (1252)
+E:\Learning\Cplspls\ClientServer\SocketServer\TcpServer.cpp(24,11): warning C4566: character represented by universal-character-name '\u1EA1' cannot be represented in the current code page (1252)
+E:\Learning\Cplspls\ClientServer\SocketServer\TcpServer.cpp(24,11): warning C4566: character represented by universal-character-name '\u0111' cannot be represented in the current code page (1252)
+  Generating Code...
   SocketServer.vcxproj -> E:\Learning\Cplspls\ClientServer\SocketServer\Debug\SocketServer.exe

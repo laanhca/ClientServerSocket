@@ -24,6 +24,69 @@
     <ClInclude Include="Pet.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="PetCoCanh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PetColong.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PetBietBoi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TcpServer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PetCho.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PetMeo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PetHeo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PetChuot.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PetChon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PetCaVang.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PetCaKoi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PetCaHeo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PetCaSau.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PetCaVoi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PetGa.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PetVit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PetChimBoCau.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PetVet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PetChimCong.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PetChimDaiBang.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PetManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
@@ -33,6 +96,69 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Pet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PetCoCanh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PetColong.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PetBietBoi.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TcpServer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PetCho.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PetMeo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PetHeo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PetChuot.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PetChon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PetCaVang.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PetCaKoi.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PetCaHeo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PetCaSau.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PetCaVoi.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PetGa.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PetVit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PetChimBoCau.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PetVet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PetChimCong.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PetChimDaiBang.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PetManager.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
